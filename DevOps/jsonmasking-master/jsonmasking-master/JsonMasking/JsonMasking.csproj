@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Thiago Barradas</Authors>
+    <Company>Thiago Barradas</Company>
+    <Copyright>Ⓒ Thiago Barradas</Copyright>
+    <PackageLicenseUrl>https://github.com/ThiagoBarradas/jsonmasking/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/ThiagoBarradas/jsonmasking</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ThiagoBarradas/jsonmasking</RepositoryUrl>
+    <PackageTags>newtonsoft json masking utility remove mask core standard easy replace wildcard regex</PackageTags>
+    <PackageIconUrl>https://i.imgur.com/ZhUJnNd.png</PackageIconUrl>
+    <Description>Replace fields in json, replacing by something, don't care if property is in depth objects. Very useful to replace passwords credit card number, etc.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="7.0.1" />
+  </ItemGroup>
+
+</Project>

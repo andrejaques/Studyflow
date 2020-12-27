@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox #02</title>
+    <link rel="stylesheet" href="css/tag.css">
+    <style>
+        div {
+            border: solid 5px dodgerblue;
+            font-size: 40px;
+        }
+
+        .flex-container div {
+            box-sizing: border-box;
+        }
+
+        .flex-container {
+            display: flex; /* flex direction é automaticamente o row*/
+            height: 300px;
+            width: 600px;
+        }
+
+        .flex-container div:nth-child(3) {
+            background-color: indianred;
+            order: 1; /* todos os itens de uma flex-container tem peso 0 padrao */
+            order: 0;
+            order: -1;
+            align-self: center; /* usa o cross-axis e sobrescreve o align-items */
+            align-self: flex-end;
+            align-self: stretch; /* default */
+        }
+
+        .flex-container div{
+            width: 100px;
+            flex-grow: 0; /* Cresce no main axis. valor 0 não altera. o Flex-grow tem peso e divide o container pelo peso das dives e divide o resultado entre elas */
+            flex-grow: 1;  /* divide igualmente pois todas as divs tem peso 1 */ 
+        }
+
+        .flex-container div:nth-child(1) {
+            flex-grow: 2; /* o item 1 tem o tamanho restante do container maior que os demais (o dobro) */
+        }
+
+        .flex-container {
+            width: 300px;
+            flex-shrink: 1; /* Encolher. Mesma lógica do flex-grow. */
+        }
+
+        .flex-container div:nth-child(1) {
+            flex-shrink: 5;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="flex-container tag nolabel">
+        <div class="tag nolabel">1</div>
+        <div class="tag nolabel">2</div>
+        <div class="tag nolabel">3</div>
+        <div class="tag nolabel">4</div>
+    </div>
+    <script src="js/tag.js"></script>
+</body>
+
+</html>

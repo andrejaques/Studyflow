@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Unidades #01</title>
+    <style>
+        /* 
+        Absolutos: px, cm, mm...
+        Viewport: vh (% da altura total), vw (% da largura total), Vmin e Vmax (menor e maior viewr do browser atual)
+        Font: rem (multiplicador relativo à fonte raíz), em (mutiplicador relativo à fonte pai)
+        %: Caso Especial. Pode se comportar de maneiras diferentes.
+         */
+
+        .unidades-absolutas {
+            position: absolute; /*não necessário*/
+            font-size: 40px;
+            padding: 20px;
+            border: solid 5px #222;
+            margin: 30px;
+            width: 4cm; /* pouco usado */
+            height: 20mm; /* pouco usado */
+            top: 150px; /* distância do top do browser. Só levado em consideração em posicao absoluta. */
+            left: 200px /* distância do lado esquerdo. Só levado em consideração em posicao absoluta. */
+        }
+
+        .unidades-relativas {
+            position: absolute;
+            font-size: 4em;
+            padding: 5%;
+            border: solid 1vw #222;
+            margin: .8%;
+            width: 20vw;
+            height: 15vh;
+            bottom: 5%;
+            Right: 5%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="unidades-absolutas">Opa!</div>
+    <div class="unidades-relativas">Epa!</div>
+</body>
+
+</html>

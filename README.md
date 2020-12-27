@@ -1,5 +1,3 @@
-# Studyflow
-Study repository
+This is the place that I save almost all my materials developed during my study. 
 
-Contains almost everything that I studied and what I am studying. 
-
+I am updating each new content. 

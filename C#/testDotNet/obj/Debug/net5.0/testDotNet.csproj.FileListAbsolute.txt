@@ -1,0 +1,16 @@
+D:\Programacao\GitHub\Study\C#\testDotNet\bin\Debug\net5.0\testDotNet.exe
+D:\Programacao\GitHub\Study\C#\testDotNet\bin\Debug\net5.0\testDotNet.deps.json
+D:\Programacao\GitHub\Study\C#\testDotNet\bin\Debug\net5.0\testDotNet.runtimeconfig.json
+D:\Programacao\GitHub\Study\C#\testDotNet\bin\Debug\net5.0\testDotNet.runtimeconfig.dev.json
+D:\Programacao\GitHub\Study\C#\testDotNet\bin\Debug\net5.0\testDotNet.dll
+D:\Programacao\GitHub\Study\C#\testDotNet\bin\Debug\net5.0\ref\testDotNet.dll
+D:\Programacao\GitHub\Study\C#\testDotNet\bin\Debug\net5.0\testDotNet.pdb
+D:\Programacao\GitHub\Study\C#\testDotNet\obj\Debug\net5.0\testDotNet.csprojAssemblyReference.cache
+D:\Programacao\GitHub\Study\C#\testDotNet\obj\Debug\net5.0\testDotNet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacao\GitHub\Study\C#\testDotNet\obj\Debug\net5.0\testDotNet.AssemblyInfoInputs.cache
+D:\Programacao\GitHub\Study\C#\testDotNet\obj\Debug\net5.0\testDotNet.AssemblyInfo.cs
+D:\Programacao\GitHub\Study\C#\testDotNet\obj\Debug\net5.0\testDotNet.csproj.CoreCompileInputs.cache
+D:\Programacao\GitHub\Study\C#\testDotNet\obj\Debug\net5.0\testDotNet.dll
+D:\Programacao\GitHub\Study\C#\testDotNet\obj\Debug\net5.0\ref\testDotNet.dll
+D:\Programacao\GitHub\Study\C#\testDotNet\obj\Debug\net5.0\testDotNet.pdb
+D:\Programacao\GitHub\Study\C#\testDotNet\obj\Debug\net5.0\testDotNet.genruntimeconfig.cache

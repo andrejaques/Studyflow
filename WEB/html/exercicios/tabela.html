@@ -1,0 +1,59 @@
+<table> <!-- pode-se adicionar border="1 espessura"-->
+    <caption>Produtos</caption> <!--Nome da tabela-->
+    <thead> <!-- Cabeçalho da tabela-->
+        <tr> <!-- table roll (linha)-->
+            <th>Produto</th> ,<!--Table head para cada coluna  -->
+            <th>Preço</th>
+            <th>Quantidade</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr> <!-- Linha -->
+            <td>iPad</td> <!-- table data - dado-->
+            <td>3289,00</td>
+            <td>5</td>
+            <td>16445,00</td>
+        </tr>
+        <tr>
+           <td>Sansung S9</td> 
+           <td>2649,00</td>
+           <td>8</td>
+           <td>21192,00</td>
+        </tr>
+    </tbody>
+    <tfoot> <!-- rodapé da tabela -->
+        <tr>
+            <td colspan="3" rowspan="2">Total</td> <!-- colspan = propriedade para ocupar mais de uma coluna (no caso "3") | rowspan = propriedade para ocupar mais de uma linha (no caso "2") -->
+            <td>37637,00</td> 
+            <td>teste</td> <!-- vai adicionar um dado em uma coluna que não existe pois as colunas criadas já foram preenchidas.-->
+        </tr>
+        <tr>
+            <td>teste</td>
+        </tr>
+    </tfoot>
+</table>
+
+<style> 
+    table {
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+
+    thead tr {
+       border-bottom: solid 3px #444; 
+    }
+
+    tbody tr:hover { /* hover é para quando o mouse passar por cima.*/
+        background-color: #b4b1b1;
+    }
+
+    tfoot {
+        background-color: #444;
+        color: #fff;
+        font-weight: bold;
+    }
+</style>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Especificidade CSS</title>
+    <style>
+        /* https://specificity.keegan.st/ */
+        /*
+            1. Inline
+            2. ID (#)
+            3. Classes (.classe), Pseudo-Classes (:PClasse) e Atributos([atributo])
+            4. Elementos (p, head, div) e Pseudo-Elementos (::PElemento)
+        */
+
+        body { font-size: 40px; }
+
+        div { background-color: blue; color: white; } /* especificidade 4 */
+        div[wm-cor] { background-color: darkorange; } /* especificidade 3 */
+        div.estilo { background-color: green; } /* especificidade 3 */
+        div:hover { background-color: purple; } /* especificidade 3 */
+
+        #unico1, #unico2 { background-color: gray; } /* especificidade 2. Não aplica o hover pelo nível de especificidade */
+        #unico1:hover, #unico2:hover { background-color: purple; }
+
+    </style>
+</head>
+
+<body>
+    <div id="unico1" class="estilo" style="background-color: red;"> <!-- especificidade 1. Hover não funciona-->
+        #unico1 vs .estilo vs inline
+    </div>
+    <div id="unico2" class="estilo">#unico2 vs .estilo</div>
+    <div class="estilo" wm-cor>.estilo vs wm-cor</div>
+    <div wm-cor>wm-cor</div>
+    <div class="estilo">.estilo</div>
+    <div>elemento</div>
+</body>
+
+</html>

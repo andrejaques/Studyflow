@@ -1,0 +1,16 @@
+D:\Programacao\GitHub\Study\C#\projetoCalcDIO\bin\Debug\net5.0\projetoCalcDIO.exe
+D:\Programacao\GitHub\Study\C#\projetoCalcDIO\bin\Debug\net5.0\projetoCalcDIO.deps.json
+D:\Programacao\GitHub\Study\C#\projetoCalcDIO\bin\Debug\net5.0\projetoCalcDIO.runtimeconfig.json
+D:\Programacao\GitHub\Study\C#\projetoCalcDIO\bin\Debug\net5.0\projetoCalcDIO.runtimeconfig.dev.json
+D:\Programacao\GitHub\Study\C#\projetoCalcDIO\bin\Debug\net5.0\projetoCalcDIO.dll
+D:\Programacao\GitHub\Study\C#\projetoCalcDIO\bin\Debug\net5.0\ref\projetoCalcDIO.dll
+D:\Programacao\GitHub\Study\C#\projetoCalcDIO\bin\Debug\net5.0\projetoCalcDIO.pdb
+D:\Programacao\GitHub\Study\C#\projetoCalcDIO\obj\Debug\net5.0\projetoCalcDIO.csprojAssemblyReference.cache
+D:\Programacao\GitHub\Study\C#\projetoCalcDIO\obj\Debug\net5.0\projetoCalcDIO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacao\GitHub\Study\C#\projetoCalcDIO\obj\Debug\net5.0\projetoCalcDIO.AssemblyInfoInputs.cache
+D:\Programacao\GitHub\Study\C#\projetoCalcDIO\obj\Debug\net5.0\projetoCalcDIO.AssemblyInfo.cs
+D:\Programacao\GitHub\Study\C#\projetoCalcDIO\obj\Debug\net5.0\projetoCalcDIO.csproj.CoreCompileInputs.cache
+D:\Programacao\GitHub\Study\C#\projetoCalcDIO\obj\Debug\net5.0\projetoCalcDIO.dll
+D:\Programacao\GitHub\Study\C#\projetoCalcDIO\obj\Debug\net5.0\ref\projetoCalcDIO.dll
+D:\Programacao\GitHub\Study\C#\projetoCalcDIO\obj\Debug\net5.0\projetoCalcDIO.pdb
+D:\Programacao\GitHub\Study\C#\projetoCalcDIO\obj\Debug\net5.0\projetoCalcDIO.genruntimeconfig.cache

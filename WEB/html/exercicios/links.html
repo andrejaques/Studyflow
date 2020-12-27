@@ -1,0 +1,20 @@
+<h1>Links</h1>
+
+<!-- URL Absoluta -->
+<a id="inicio" href="https://www.google.com.br">Google 1</a><br> <!--se retirar o http, ele vai considerar url relativa e tentar acessar dentro deste sistema-->
+<a href="https://www.google.com.br" target="_blank">Google 2</a><br><br> <!--abre uma nova aba-->
+
+<!-- URL Relativa -->
+<a href="index.html">Voltar 1</a><br> <!-- tenta acessar o index na pasta atual. Vai funcionar utilizando o ajax mas não se abrir a url do link.-->
+<a href="/index.html">Voltar 2</a><br> <!--retira qualquer pagina aberta e vai para index.htlm-->
+<a href="../index.html">Voltar 3</a><br><br> <!-- ele vai para a pasta superior (no caso exercicios) e procurar o index.html (que nesse caso nao existe)-->
+
+<a href="mailto:email@empresa.com.br">Entre em contato</a><br><br>
+
+<div id="noticia" style="position:absolute;top:2000px;">
+    <h1>Notícia Buemba!</h1>
+    <p>Não era nada... :)</p>
+    <a href="#inicio">Voltar Inicio</a> <!-- navega até o id = notícia-->
+</div>
+
+<a href="#noticia">Ir para Notícia</a> <!-- navegação via ancora. Ancoras não são enviadaas em submissões da url para o back-end -->
