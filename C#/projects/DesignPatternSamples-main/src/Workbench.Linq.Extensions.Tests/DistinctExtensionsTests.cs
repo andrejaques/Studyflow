@@ -16,15 +16,18 @@ namespace Workbench.Linq.Extensions.Tests
         [Fact(DisplayName = "Data uma coleção com 3 objetos sendo 2 iguais então o DISTINCT com uma comparação simples deve retornar uma lista com 2 objetos.")]
         public void ListagemComItensRepetidosComparecaoSimples()
         {
+            // Arrange
             IEnumerable<PessoaFisica> pessoas = new List<PessoaFisica>()
             {
-                new PessoaFisica() { Nome = "Victor Fructuoso", NomeMae = "Ana", CPF = "111.111.111-11" },
-                new PessoaFisica() { Nome = "Victor Fructuoso", NomeMae = "Paula", CPF = "111.111.111-11" },
-                new PessoaFisica() { Nome = "Victor Fructuoso", NomeMae = "Ana", CPF = "222.222.222-22" }
+                new PessoaFisica() { Nome = "Andre Jaques", NomeMae = "Ana", CPF = "111.111.111-11" },
+                new PessoaFisica() { Nome = "Andre Jaques", NomeMae = "Paula", CPF = "111.111.111-11" },
+                new PessoaFisica() { Nome = "Andre Jaques", NomeMae = "Ana", CPF = "222.222.222-22" }
             };
 
+            // Act
             IEnumerable<PessoaFisica> pessoasDiferentes = pessoas.Distinct(p => p.CPF);
 
+            // Assert
             Assert.NotNull(pessoasDiferentes);
             Assert.True(pessoasDiferentes.Any());
             Assert.Equal(2, pessoasDiferentes.Count());
@@ -36,9 +39,9 @@ namespace Workbench.Linq.Extensions.Tests
         {
             IEnumerable<PessoaFisica> pessoas = new List<PessoaFisica>()
             {
-                new PessoaFisica() { Nome = "Victor Fructuoso", NomeMae = "Ana", CPF = "111.111.111-11" },
-                new PessoaFisica() { Nome = "Victor Fructuoso", NomeMae = "Paula", CPF = "111.111.111-11" },
-                new PessoaFisica() { Nome = "Victor Fructuoso", NomeMae = "Ana", CPF = "222.222.222-22" }
+                new PessoaFisica() { Nome = "Andre Jaques", NomeMae = "Ana", CPF = "111.111.111-11" },
+                new PessoaFisica() { Nome = "Andre Jaques", NomeMae = "Paula", CPF = "111.111.111-11" },
+                new PessoaFisica() { Nome = "Andre Jaques", NomeMae = "Ana", CPF = "222.222.222-22" }
             };
 
             IEnumerable<PessoaFisica> pessoasDiferentes = pessoas.Distinct(p => new { p.Nome, p.NomeMae });
