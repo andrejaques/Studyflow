@@ -1,4 +1,4 @@
-# DesignPatternSamples
+# DesignPatternSamples  - Case study of pattern design in the Avanade and Digital Inovation One course.
 |Branch|Build|
 |-:|-|
 |Develop|![.NET Core](https://github.com/fructuoso/DesignPatternSamples/workflows/.NET%20Core/badge.svg?branch=develop)|
