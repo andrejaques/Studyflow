@@ -1,4 +1,4 @@
-                                                                    // Closure 
+                                                                    // Scope 
 
 // É o escopo criado quando uma função é declarada, delimitado pelas {}. Esse escopo permite a função acessar e manipular variáveis externas à função, ... 
 // mas não permite funções externas utilizarem variáveis internas desta função caso as mesas utilizem let ou const.
