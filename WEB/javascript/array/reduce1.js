@@ -1,5 +1,13 @@
 /* reduce retorna um novo topo de dado iterando cada posição do array */
 
+/*   sintax - array.reduce(function(acumulado, valorAtual) 
+{
+     return regra-para-o-reduce
+}, valor-inicial-do-acumulado)
+
+    sintax2 - array.reduce((acumulado, valorAtual) => acumulado + valorAtual, 0)
+*/
+
 const arr = [1, 2, 3, 4, 5]
 console.log(arr)
 

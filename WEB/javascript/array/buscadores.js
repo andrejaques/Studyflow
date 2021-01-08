@@ -110,7 +110,7 @@ console.log() // \n
 
 /* join */
 
-// junta todos os elementos de um array, separados por um delimitador e retorna uma strin
+// junta todos os elementos de um array, separados por um delimitador e retorna uma string
 
 console.log("concatenando todo o array e separando por ^^. arr.join('^^')")
 
