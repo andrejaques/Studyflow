@@ -61,3 +61,5 @@ const directions = {
     LEFT : Symbol( 'LEFT' ),
     RIGHT: Symbol( 'RIGHT' )
 }
+
+
