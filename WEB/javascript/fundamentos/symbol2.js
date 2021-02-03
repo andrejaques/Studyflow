@@ -38,3 +38,6 @@ console.log() // \n
 for (let value of arr) {
     console.log(value);
 }
+
+console.log() // \n
+
