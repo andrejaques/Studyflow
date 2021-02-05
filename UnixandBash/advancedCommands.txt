@@ -1,7 +1,0 @@
-// Unix Commands
-
-01 - | 
-Roda 02 comandos, utilizando a saída do primeiro comando como entrada para o segundo
-
-02 - >
-Pega um dado de saída e aplica como entrada, criando um arquivo.

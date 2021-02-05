@@ -33,3 +33,5 @@ Ctrl + Shift + V or Shift + Insert	Paste the contents of the clipboard
 Up/Down Arrow keys	To scroll through your command history, allowing you to quickly execute the same command multiple times
 
 TAB	Used to complete the command you are typing. If more than one command is possible, you can press it multiple times to scroll through the possible completions. If a very wide number of commands are possible, it can output a list of all possible completions.
+
+Open Processes Manager - Alt + F2 - than put gnome-system-monitor.
