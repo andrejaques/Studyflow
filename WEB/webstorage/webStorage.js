@@ -42,3 +42,9 @@ storage.setItem("classes", JSON.stringify(classes))
 let cls = JSON.parse(storage.getItem("classes"))
 console.log(cls) // ["Knight", "Mage"]
 
+// pode ser consultado pela ordem key
+localStorage.key(2);
+
+// pode ser deletado pelo delete
+delete localStorage.classes;
+
