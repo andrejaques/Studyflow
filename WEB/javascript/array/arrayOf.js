@@ -19,11 +19,11 @@ const arr2 = Array(6)
 console.log(arr2)
 
 console.log("observar que existem todos os itens vazios")
- arr2.push('Carro')
- arr2.splice(2, 2, "Moto", "Avião")
- console.log(arr2)
+arr2.push('Carro')
+arr2.splice(2, 2, "Moto", "Avião")
+console.log(arr2)
 
- console.log() // \n
+console.log() // \n
 
 // Apenas Array é semelhante a Array.of
 const arr3 = Array("Joao", 3, "Ebi Camargo")

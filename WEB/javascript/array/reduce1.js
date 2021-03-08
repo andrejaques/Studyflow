@@ -1,4 +1,4 @@
-/* reduce retorna um novo topo de dado iterando cada posição do array */
+/* reduce retorna um novo tipo de dado iterando cada posição do array */
 
 /*   sintax - array.reduce(function(acumulado, valorAtual) 
 {
