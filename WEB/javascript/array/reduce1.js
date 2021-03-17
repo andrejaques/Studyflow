@@ -2,7 +2,7 @@
 
 /*   sintax - array.reduce(function(acumulado, valorAtual) 
 {
-     return regra-para-o-reduce
+    return regra-para-o-reduce
 }, valor-inicial-do-acumulado)
 
     sintax2 - array.reduce((acumulado, valorAtual) => acumulado + valorAtual, 0)
