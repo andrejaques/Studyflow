@@ -12,7 +12,7 @@ console.log(charClasses)
 
 console.log() // \n
 
-// Função shift remove o primeiro elemento do array e retorna ele
+// Função shift remove o primeiro elemento do array
 
 console.log("função shift remove o primeiro elemento do array")
 charClasses.shift() 
@@ -40,30 +40,32 @@ console.log(charClasses)
 console.log() // \n
 
 
-                    // Função Slice cria um novo array a partir de partes de um array existente.
+// Função Slice cria um novo array a partir de partes de um array existente.
 
 // Syntaxe: .slice(id(contido), id(ñ contido))
 // posições negativas contado inversamente a partir do último
 
 console.log() // \n
 
-// Novo array de classes com exceção do id 1
-console.log("Novo array de classes, com exceção do id 1")
-const upgradedClasses = charClasses.slice(1)
+const charClasses2 = ["mage", "knight", "ranger", "druid", "rogue", "warrior", "priest"]
+
+// Novo array de classes com exceção do id 0
+console.log("Novo array de classes, com exceção do id 0")
+const upgradedClasses = charClasses2.slice(1)
 console.log(upgradedClasses)
 
 console.log() // \n
 
 // novo array da classe id 1 ao id 3 
 console.log("novo array da classe id 1 ao id 3 ")
-const honradosClasses2 = charClasses.slice(1, 4)
+const honradosClasses2 = charClasses2.slice(1, 4)
 console.log(honradosClasses2)
 
 
 console.log() // \n
 
 
-                    // Função splice pode adicionar e remover elementos
+// Função splice pode adicionar e remover elementos
 
 // Syntaxe: .splice(index, qnt de index para remover, objetos a serem adicionados...)
 
