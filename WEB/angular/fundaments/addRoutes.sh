@@ -1,4 +1,4 @@
-# to configure a router to the component we need to do some steps:
+# to configure a routes to the component we need to do some steps:
 
 # - 01
 # add routerlink in the layout html nav item or similar (layoutcontrolpanel or layoutfeed)
@@ -15,11 +15,17 @@ ComponentName,
 # add the component in app-routing.module.ts (inside app folder). Add the import like:
 import { ComponentName } from '../app/directory/component-name/component-name.component';
 
-# and add inside const routes: Routes = [, the atribute like:
+# and set the deafult layout of the company adding inside const routes: Routes = [, the atribute like:
 {
   path: 'component-name',
-  component: LayoutfeedComponent, #the default layout from step - 01
+  component: LayoutfeedComponent, #the default layout of this company
   children: [
     { path: '', component: ComponentName },
   ]
 },
+
+
+
+# to configure routes to layout we start in the step - 02.
+
+# in the step 03 - we dont pass the path because we are the default layout to the components.
