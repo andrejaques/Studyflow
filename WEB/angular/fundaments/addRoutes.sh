@@ -28,4 +28,4 @@ import { ComponentName } from '../app/directory/component-name/component-name.co
 
 # to configure routes to layout we start in the step - 02.
 
-# in the step 03 - we dont pass the path because we are the default layout to the components.
+# in the step 03 - we dont pass the path of layout, because It is the default layout to the components.
