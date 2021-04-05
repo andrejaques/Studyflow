@@ -92,3 +92,13 @@ const reportStatus = (name, students) => {
 };
 
 console.log(reportStatus('Natalia', estudantes));
+
+console.log('------------------------')
+
+const cities = ['Recife', 'Fortaleza', 'Maceió', 'Manaus','Florianopolis', 'São Paulo']
+const randomIndex = Math.floor((Math.random() * cities.length));
+console.log(randomIndex);
+
+const randomCity = cities.find((city, index) => index === randomIndex);
+
+console.log(randomCity)
