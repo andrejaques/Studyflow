@@ -5,10 +5,10 @@ const alunos = [
     { nome: 'Ana', nota: 8.7, bolsista: true }
 ]
 
-// Desafio 1: Todos os alunos são bolsista?
+// Desafio 1: Todos os alunos são bolsista? ou pode utilizar o every
 const todosBolsistas = (resultado, bolsista) => resultado && bolsista
 console.log(alunos.map(a => a.bolsista).reduce(todosBolsistas))
 
-// Desafio 2: Algum aluno é bolsista?
+// Desafio 2: Algum aluno é bolsista? ou pode utilizar o some
 const algumBolsista = (resultado, bolsista) => resultado || bolsista
 console.log(alunos.map(a => a.bolsista).reduce(algumBolsista))

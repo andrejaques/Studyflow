@@ -1,3 +1,5 @@
+// Construindo a função reduce
+
 Array.prototype.reduce2 = function(callback, valorInicial) {
     const indiceInicial = valorInicial ? 0 : 1
     let acumulador = valorInicial || this[0]
@@ -7,6 +9,7 @@ Array.prototype.reduce2 = function(callback, valorInicial) {
     return acumulador
 }
 
+// somando os valores de um array mais 21.
 const soma = (total, valor) => total + valor
 const nums = [1, 2, 3, 4, 5, 6]
 console.log(nums.reduce2(soma, 21))

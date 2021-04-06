@@ -1,4 +1,4 @@
-/* reduce retorna um novo tipo de dado iterando cada posição do array */
+/* reduce retorna um novo tipo de dado interando cada posição do array */
 
 /*   sintax - array.reduce(function(acumulado, valorAtual) 
 {
@@ -27,6 +27,7 @@ const alunos = [
     { nome: 'Ana', nota: 8.7, bolsista: true }
 ]
 
+// emitir a soma da nota de todos os alunos
 console.log(alunos.map(a => a.nota))
 
 console.log() // \n
