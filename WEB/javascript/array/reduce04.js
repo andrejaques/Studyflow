@@ -1,3 +1,4 @@
+// get the bigger value in the array
 
 const numbers = [50, 85, -30, 3, 15];
 

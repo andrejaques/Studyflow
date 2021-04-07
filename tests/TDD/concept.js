@@ -32,13 +32,13 @@ Code is refactored for readability and maintainability.
 In particular, hard-coded test data should be removed. 
 Running the test suite after each refactor helps ensure that no existing functionality is broken.
 Examples of refactoring:
-  # moving code to where it most logically belongs
-  # removing duplicate code
-  # making names self-documenting
-  # splitting methods into smaller pieces
-  # re-arranging inheritance hierarchies
+    # moving code to where it most logically belongs
+    # removing duplicate code
+    # making names self-documenting
+    # splitting methods into smaller pieces
+    # re-arranging inheritance hierarchies
 
-  Repeat
+    Repeat
 
 The cycle above is repeated for each new piece of functionality. 
 Tests should be small and incremental, and commits made often. 
