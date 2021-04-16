@@ -37,7 +37,6 @@ let age = obj.props.age;
 
 // Destructuring Assignment
 
-let [apple2] = arr3;
 let { props: { age: age2 } } = obj;
 
 console.log(obj)
