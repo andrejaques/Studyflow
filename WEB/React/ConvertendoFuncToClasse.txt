@@ -1,0 +1,9 @@
+Convertendo uma Função para uma Classe
+Você pode converter um componente de função como Clock em uma classe em cinco etapas:
+
+Criar uma classe ES6, com o mesmo nome, estendendo React.component.
+Adicionar um único método vazio chamado render().
+Mova o corpo da função para o método render().
+Substitua props por this.props no corpo de render().
+Exclua a declaração da função vazia restante.
+
