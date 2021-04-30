@@ -1,0 +1,1 @@
+/* onClick handles click events on JSX elements (namely on buttons) */

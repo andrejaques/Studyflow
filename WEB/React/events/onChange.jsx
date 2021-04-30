@@ -1,0 +1,1 @@
+/* onChange handles keyboard events (namely a user typing into an input or textarea) */
